@@ -16,6 +16,8 @@ Pour une présentation complète des enjeux, des intérêts analytiques et des r
 
 ## Structure du dépôt
 
+```{r}
+
 ├── data/                      # Données brutes originales
 │   ├── IV/                    # Fichiers du IV framework
 │   │   ├── first_iv.xlsx
@@ -54,6 +56,8 @@ Pour une présentation complète des enjeux, des intérêts analytiques et des r
 │   └── sustainability.rds/.csv      # fusion WDI, Freedom, PWT, ND-GAIN, Informal, Gini
 ├── README.md                                  
 └── .gitignore                 # Exclusions Git
+
+```
 
 ## Prérequis
 
