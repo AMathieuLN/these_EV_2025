@@ -1,17 +1,15 @@
 # Codes et données de réplication pour : "Économie politique des emplois verts : informalité dans les Suds et quête d'une transition juste 
 ## Description
 
-Ce dépôt regroupe tous les codes et données pour reproduire les chapitres 2 et 3 de ma thèse intitulée "Économie politique des emplois verts : informalité dans les Suds et quête d'une transition juste". 
+Ce dépôt regroupe tous les codes et données pour reproduire les **chapitres 2 et 3 de la thèse** intitulée "**Économie politique des emplois verts : informalité dans les Suds et quête d'une transition juste**". 
 
-Les données sont aux formats .RDS, .XLSX ou .CSV. 
+Les données sont aux formats **.RDS, .XLSX ou .CSV**. 
 
-Ces jeux de données et codes sont fournis uniquement dans un objectif de reproductibilité de notre travail de thèse. Nous ne sommes pas les concepteurs ni les propriétaires de l'ensemble des données utilisées. Pour un usage approfondi ou autonome, il est fortement recommandé de consulter directement les sources originales, afin de bénéficier des éventuelles mises à jour, d’éviter toute déformation liée à notre traitement, et de garantir une citation adéquate des auteur·e·s des données. Ces derniers sont systématiquement mentionnés dans notre manuscrit de thèse et nos scripts disponibles aux formats .qmd et .pdf.
+Ces jeux de données et codes sont fournis uniquement dans un objectif de **reproductibilité d'une partie notre travail de thèse**. Nous ne sommes pas les concepteurs ni les propriétaires de l'ensemble des données utilisées. Pour un usage approfondi ou autonome, il est fortement recommandé de **consulter directement les sources originales**, afin de bénéficier des éventuelles mises à jour, d’éviter toute déformation liée à notre traitement, et de garantir une **citation adéquate des auteur·e·s des données**. Ces derniers sont systématiquement mentionnés dans notre manuscrit de thèse et nos **scripts disponibles aux formats .qmd et .pdf**.
 
-A noter que les fichiers contenant comportant les mêmes noms que leur source ILO correspondent à des données issues de nos traitements, dans lesquels nous avons notamment introduit une classification des emplois à fort potentiel de verdissement (EFPV), utilisée dans le chapitre 2. Le fichier nommé efpv_sustainability résulte de la fusion entre le jeu de données modifié EMP_TEMP_SEX_EDU_EC2_NB_A et la base sustainability, mobilisée pour les analyses du chapitre 3.
+A noter que les fichiers contenant comportant les mêmes noms que leur source ILO correspondent à des données issues de nos traitements, dans lesquels nous avons notamment introduit une classification des **emplois à fort potentiel de verdissement (EFPV)**, utilisée dans le chapitre 2. Le fichier nommé efpv_sustainability résulte de la fusion entre le jeu de données modifié EMP_TEMP_SEX_EDU_EC2_NB_A et la base sustainability, mobilisée pour les analyses du chapitre 3.
 
-Les données comportant les noms ILO sont le fruit de notre travail avec nos modifications et ajouts d'une catégorie d'emplois à fort potentiel de verdissement (EFPV) servant pour le chapitre 2, et les données de "efpv_sustainability" sont issues de la fusion du jeu de données modifié ici "EMP_TEMP_SEX_EDU_EC2_NB_A" et de "sustainability" servant pour le chapitre 3. 
-
-Pour une présentation complète des enjeux, des intérêts analytiques et des résultats tirés de ces données, nous vous invitons à consulter notre manuscrit de thèse disponible ici : [lien].
+Pour une présentation complète des enjeux, des intérêts analytiques et des résultats tirés de ces données, nous vous invitons à consulter notre **manuscrit de thèse disponible ici** : [lien].
 
 
 ## Structure du dépôt
@@ -61,8 +59,12 @@ Pour une présentation complète des enjeux, des intérêts analytiques et des r
 
 ## Prérequis
 
-Assurez-vous que les dernières versions de R et de RStudio sont installées sur votre système.
+Assurez-vous que les dernières versions de R et de RStudio sont installées sur votre système, ainsi que les outils Quarto depuis R. 
 
 ## Étapes pour la réplication
 
-
+1. Depuis le Terminal de RStudio, clonez le dépôt :
+   - Commencez par taper : *git clone https://github.com/AMathieuLN/these_EV_2025*
+   - Puis *cd these_EV_2025*
+2. Ouvrez le fichier these_EV_2025.Rproj dans RStudio.
+3. Lancez les analyses en suivant les scripts, disponibles aux formats .qmd et lisibles également en .pdf, dans le dossier "script_chap2/" ou "script_chap3/". 
