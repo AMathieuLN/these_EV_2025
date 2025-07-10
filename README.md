@@ -51,8 +51,8 @@ Pour une présentation complète des enjeux, des intérêts analytiques et des r
 │
 ├── outputs/                   # Jeux de données finaux (RDS / CSV)
 │   ├── IV.rds                 # IV framework nettoyé
-│   ├── <ilostat_indicator>.rds  # 23 fichiers ILOSTAT transformés
-│   ├── efpv_sustainability.rds/.csv  # fusion ILOSTAT + sustainability
+│   ├── ilostatTVE (<ilostat_indicator>.rds)  # 23 fichiers ILOSTAT transformés
+│   ├── efpv_sustainability.rds/.csv  # fusion EMP_TEMP_SEX_EDU_EC2_NB_A + sustainability
 │   └── sustainability.rds/.csv      # fusion WDI, Freedom, PWT, ND-GAIN, Informal, Gini
 ├── README.md                                  
 └── .gitignore                 # Exclusions Git
